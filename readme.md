@@ -1,4 +1,4 @@
-# Deploy mBrainAligner Demo on local machine (linux/Windows)
+# Deploy mBrainAligner-Web on local machine (linux/Windows)
 
 **Requirement: Python 3.x**
 With the `server-code` pack, place it inside folder `mBrainAligner`, along with `binary`, `doc`, `examples` and `src`. 
@@ -37,7 +37,7 @@ Redirect to `\frontend\src\views\Home.vue`, and change all `http://159.75.201.35
 
 To acquire the registration results of sample data, you may read this following section to [run mBrainAligner on sample data in batch](https://github.com/Vaa3D/vaa3d_tools/tree/master/hackathon/mBrainAligner#--run-mbrainaligner-on-sample-data-in-batch). 
 
-# Remotely serve web deployment
+# Remotely serve web deployment (linux/Windows)
 
 ## 1. back-end environment deployment
 ### 1.1 Installation environment
