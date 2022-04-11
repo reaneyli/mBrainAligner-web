@@ -23,7 +23,7 @@ class SendMail():
         self.sender = "jarvisgroup@163.com"
 
         # 服务器地址
-        self.server_ip = "http://159.75.201.35"
+        self.server_ip = "http://101.76.160.87"
 
     def send_text_process(self, path, folder_name, receiver):
             """
@@ -106,10 +106,10 @@ class SendMail():
     #
     #         # server
     #         send_text = '<div>Folder Name: {folder_name} </div>' \
-    #                     '<div>Download Address:  <span style="font-style:Italic;font-size:10px;">http://159.75.201.35/api/download?zip_file_path={path}&folder_name={folder_name}</span></div>' \
+    #                     '<div>Download Address:  <span style="font-style:Italic;font-size:10px;">http://101.76.160.87/api/download?zip_file_path={path}&folder_name={folder_name}</span></div>' \
     #                     '<div>' \
     #                     '<a ' \
-    #                     'href="http://159.75.201.35/api/download?zip_file_path={path}&folder_name={folder_name}" ' \
+    #                     'href="http://101.76.160.87/api/download?zip_file_path={path}&folder_name={folder_name}" ' \
     #                     'style="font-size:16px;color:blue" ' \
     #                     'download ' \
     #                     'target="_self"' \

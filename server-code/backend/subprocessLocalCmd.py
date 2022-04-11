@@ -51,9 +51,9 @@ class subprocessLocal():
             return return_code, stdout_content
 
 if __name__ == "__main__":
-    cmd1 = "/home/ubuntu/mBrainAligner/dist/linux_bin/global_registration -f /home/ubuntu/mBrainAligner/examples/target/CCF_25_u8_xpad.v3draw -c /home/ubuntu/mBrainAligner/examples/target/CCF_mask.v3draw -m /home/ubuntu/mBrainAligner/examples/subject/LSFM_raw.v3draw -p r+f -o /home/ubuntu/mBrainAligner/results/user_sample_result/LSFM202108251702/ -d 70"
+    cmd1 = "/qulab/ubuntu/mBrainAligner/dist/linux_bin/global_registration -f /qulab/ubuntu/mBrainAligner/examples/target/CCF_25_u8_xpad.v3draw -c /qulab/ubuntu/mBrainAligner/examples/target/CCF_mask.v3draw -m /qulab/ubuntu/mBrainAligner/examples/subject/LSFM_raw.v3draw -p r+f -o /qulab/ubuntu/mBrainAligner/results/user_sample_result/LSFM202108251702/ -d 70"
 
-    cmd2 = "/home/ubuntu/mBrainAligner/dist/linux_bin/local_registration -p /home/ubuntu/mBrainAligner/examples/config/mouse_brain_initial_config.txt -s /home/ubuntu/mBrainAligner/results/user_sample_result/LSFM202108251702/global.v3draw  -l /home/ubuntu/mBrainAligner/examples/target/target_landmarks/low_landmarks.marker -g /home/ubuntu/mBrainAligner/examples/target/ -o /home/ubuntu/mBrainAligner/results/user_sample_result/LSFM202108251702/"
+    cmd2 = "/qulab/ubuntu/mBrainAligner/dist/linux_bin/local_registration -p /qulab/ubuntu/mBrainAligner/examples/config/mouse_brain_initial_config.txt -s /qulab/ubuntu/mBrainAligner/results/user_sample_result/LSFM202108251702/global.v3draw  -l /qulab/ubuntu/mBrainAligner/examples/target/target_landmarks/low_landmarks.marker -g /qulab/ubuntu/mBrainAligner/examples/target/ -o /qulab/ubuntu/mBrainAligner/results/user_sample_result/LSFM202108251702/"
 
     cmd3 = "ls -la"
     s = subprocessLocal()

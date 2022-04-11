@@ -37,14 +37,14 @@ class Common():
     公共参数
     """
 
-    photo_save_path = "/home/ubuntu/mBrainAligner/results/user_upload"  # 上传储存路径
-    config_save_file = "/home/ubuntu/mBrainAligner/examples/config/mouse_brain_initial_config.txt" # local registration 参数 写入文件路径，用于写入
+    photo_save_path = "/qulab/ubuntu/mBrainAligner/results/user_upload"  # 上传储存路径
+    config_save_file = "/qulab/ubuntu/mBrainAligner/examples/config/mouse_brain_initial_config.txt" # local registration 参数 写入文件路径，用于写入
     output_config_file_name = "mouse_brain_initial_config.txt" #  local registration 参数文件名， 用于复制文件到下载文件夹中的文件名
     # result_path = "../../results"  # 下载result
     # result_save_file = "result.zip"  # 打包下载文件名
 
     # sample
-    sample_data_path = "/home/ubuntu/mBrainAligner/examples/registered_results/{}/"  # 下载sample的路径
+    sample_data_path = "/qulab/ubuntu/mBrainAligner/examples/registered_results/{}/"  # 下载sample的路径
     # sample_save_file_name = "{}_samples.zip" # 下载sample
     # sample_opt_cuurent = ""  # 选择的是哪一个sample option
     sample_options = ["fMOST", "LSFM", "VISoR", "MRI"] # 默认 samples 的类别， 与前端显示保持一致
