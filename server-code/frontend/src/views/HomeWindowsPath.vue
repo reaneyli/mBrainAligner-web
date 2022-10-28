@@ -1,6 +1,6 @@
 ﻿<template>
   <div class="all">
-    <Header>mBrainAligner Demo</Header>
+    <Header>mBrainAligner-Web</Header>
     <div class="top">
       <div class="top-wrapper">
         <div class="top-left"></div>
